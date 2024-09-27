@@ -1,0 +1,9 @@
+immutable_var=(1,2,True,"Fatal")
+print(immutable_var)
+immutable_var[3]=333
+print(immutable_var)
+#изменить значение не получилось, потому что кортеж по определению неизменяем. Но способен хранить изменяемые объекты, например, строки.
+#также возможна контакценация и умножение.
+mutable_list=[3,4,5,6]
+mutable_list[0]=7
+print(mutable_list)
